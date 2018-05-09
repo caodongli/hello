@@ -4,6 +4,7 @@ static int __init hello_init(void)
 {
 	printk("Enter: %s!\n", __FUNCTION__);
 	printk("Enter: %s!\n", __FUNCTION__);
+	printk("Enter: %s!\n", __FUNCTION__);
 	
 	return 0;
 }
